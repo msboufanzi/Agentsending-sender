@@ -138,7 +138,7 @@ def send_emails():
                 try:
                     contact = contact_queue.get()
                     email = contact[0]
-                    name = contact[1] if len(contact) > 1 else ""
+                    name = contact[1] if len(contact) > 1 else "Valued Customer"
                     language = contact[2] if len(contact) > 2 else "EN"
                     
                     # Get template with fallback to EN
