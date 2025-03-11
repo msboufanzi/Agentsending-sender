@@ -1,3 +1,8 @@
 flask==2.0.1
 flask-cors==3.0.10
 python-dotenv==0.19.0
+oogle-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+pyjwt
